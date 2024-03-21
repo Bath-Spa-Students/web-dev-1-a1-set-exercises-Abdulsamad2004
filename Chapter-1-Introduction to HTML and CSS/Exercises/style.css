@@ -1,0 +1,115 @@
+/* Reset some default styles and set a background color */
+body {
+    font-family: 'Roboto', 'Sofia', sans-serif; /* Apply the fonts to the entire page */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url('your-image-url.jpg'); /* Replace 'your-image-url.jpg' with the path to your background image */
+    background-repeat: repeat-y;
+    background-position: left right;
+}
+
+.texts{
+    margin-left: 290px;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+/* Style the description */
+p {
+    text-align: center;
+    color: #555;
+    padding-left: 10px; 
+}
+
+/* Style the ingredients section */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    text-align: center; /* Center the text */
+}
+
+/* Style the unordered list for ingredients */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style each ingredient item */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the method section */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    text-align: center; /* Center the text */
+}
+
+/* Style the ordered list for steps */
+ol {
+    padding-left: 20px;
+}
+
+/* Style each step item */
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Style the images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style each ingredient item */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the method section */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Style the ordered list for steps */
+ol {
+    padding-left: 20px;
+}
+
+/* Style each step item */
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Style the images */
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text{
+    margin-left: 350px;
+}
+.text1{margin-left: 350px; margin-right: 350px;}
