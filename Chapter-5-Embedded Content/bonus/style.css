@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212121;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #equalizer-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .equalizer-bar {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    background-color: #4CAF50;
+  }
+
+  .bar1 { left: 5%; animation: equalizerAnimation1 1s infinite alternate; }
+  .bar2 { left: 15%; animation: equalizerAnimation2 1.5s infinite alternate; }
+  .bar3 { left: 25%; animation: equalizerAnimation3 2s infinite alternate; }
+  .bar4 { left: 35%; animation: equalizerAnimation4 1.3s infinite alternate; }
+  .bar5 { left: 45%; animation: equalizerAnimation5 1.7s infinite alternate; }
+  .bar6 { left: 55%; animation: equalizerAnimation6 2.2s infinite alternate; }
+  .bar7 { left: 65%; animation: equalizerAnimation7 1.8s infinite alternate; }
+  .bar8 { left: 75%; animation: equalizerAnimation8 1.5s infinite alternate; }
+  .bar9 { left: 85%; animation: equalizerAnimation9 2s infinite alternate; }
+  .bar10 { left: 95%; animation: equalizerAnimation10 1.3s infinite alternate; }
+
+  @keyframes equalizerAnimation1 {
+    0% { height: 20px; }
+    100% { height: 100px; }
+  }
+
+  @keyframes equalizerAnimation2 {
+    0% { height: 30px; }
+    100% { height: 80px; }
+  }
+
+  @keyframes equalizerAnimation3 {
+    0% { height: 40px; }
+    100% { height: 120px; }
+  }
+
+  @keyframes equalizerAnimation4 {
+    0% { height: 10px; }
+    100% { height: 70px; }
+  }
+
+  @keyframes equalizerAnimation5 {
+    0% { height: 25px; }
+    100% { height: 90px; }
+  }
+
+  @keyframes equalizerAnimation6 {
+    0% { height: 15px; }
+    100% { height: 110px; }
+  }
+
+  @keyframes equalizerAnimation7 {
+    0% { height: 35px; }
+    100% { height: 80px; }
+  }
+
+  @keyframes equalizerAnimation8 {
+    0% { height: 25px; }
+    100% { height: 120px; }
+  }
+
+  @keyframes equalizerAnimation9 {
+    0% { height: 15px; }
+    100% { height: 90px; }
+  }
+
+  @keyframes equalizerAnimation10 {
+    0% { height: 35px; }
+    100% { height: 110px; }
+  }
+
+  #soundboard {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid #1a1a1a;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+  .audio-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .audio-button:hover {
+    background-color: #45a049;
+  }
