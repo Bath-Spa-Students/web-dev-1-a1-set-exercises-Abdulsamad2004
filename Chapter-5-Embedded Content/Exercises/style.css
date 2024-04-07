@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Added to stack elements vertically */
+    animation: fadeBackground 25s infinite; /* Animation for background fade */
+    background-color: #191970; /* Initial dark blue background color */
+}
+
+@keyframes fadeBackground {
+    0% {
+        background-color: #191970; /* Dark blue */
+    }
+    25% {
+        background-color: #85c1e9; /* Lightest blue */
+    }
+    75% {
+        background-color: #2ecc71; /* Lightest green */
+    }
+    100% {
+        background-color: #004d40; /* Darkest green */
+    }
+}
+
+
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    position: absolute; /* Positioning at the top */
+    top: 10px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: aliceblue;
+}
