@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('petrol pump.jpg'); /* Replace 'background_image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Calculator Styles */
+  .calculator {
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Input Styles */
+  input[type="number"] {
+    padding: 15px;
+    margin: 10px 0;
+    width: calc(100% - 30px);
+    border: 2px solid #942121;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #2196F3;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 15px 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #700b0b , #721717);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(to right, #64B5F6 , #1976D2);
+  }
+  
+  /* Result Styles */
+  p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #700d0d;
+  }
