@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #212121;
+    background-color: #000000;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 10px;
-    background-color: #4CAF50;
+    background-color: #024441;
   }
 
   .bar1 { left: 5%; animation: equalizerAnimation1 1s infinite alternate; }
@@ -90,7 +90,7 @@ body {
 
   #soundboard {
     background-color: rgba(255, 255, 255, 0.3);
-    border: 2px solid #1a1a1a;
+    border: 2px solid #024441;
     border-radius: 20px;
     padding: 20px;
     display: grid;
@@ -101,7 +101,7 @@ body {
   }
 
   .audio-button {
-    background-color: #4CAF50;
+    background-color: #024441;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -116,5 +116,5 @@ body {
   }
 
   .audio-button:hover {
-    background-color: #45a049;
+    background-color: #1fc527;
   }
